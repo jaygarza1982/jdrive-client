@@ -1,0 +1,10 @@
+C:\Users\Jake\source\repos\OOD Project JD Rive\OOD Project JD Rive\bin\Debug\OOD Project JD Rive.exe.config
+C:\Users\Jake\source\repos\OOD Project JD Rive\OOD Project JD Rive\bin\Debug\OOD Project JD Rive.exe
+C:\Users\Jake\source\repos\OOD Project JD Rive\OOD Project JD Rive\bin\Debug\OOD Project JD Rive.pdb
+C:\Users\Jake\source\repos\OOD Project JD Rive\OOD Project JD Rive\obj\Debug\OOD Project JD Rive.csprojAssemblyReference.cache
+C:\Users\Jake\source\repos\OOD Project JD Rive\OOD Project JD Rive\obj\Debug\OOD_Project_JD_Rive.Main.resources
+C:\Users\Jake\source\repos\OOD Project JD Rive\OOD Project JD Rive\obj\Debug\OOD_Project_JD_Rive.Properties.Resources.resources
+C:\Users\Jake\source\repos\OOD Project JD Rive\OOD Project JD Rive\obj\Debug\OOD Project JD Rive.csproj.GenerateResource.cache
+C:\Users\Jake\source\repos\OOD Project JD Rive\OOD Project JD Rive\obj\Debug\OOD Project JD Rive.csproj.CoreCompileInputs.cache
+C:\Users\Jake\source\repos\OOD Project JD Rive\OOD Project JD Rive\obj\Debug\OOD Project JD Rive.exe
+C:\Users\Jake\source\repos\OOD Project JD Rive\OOD Project JD Rive\obj\Debug\OOD Project JD Rive.pdb
