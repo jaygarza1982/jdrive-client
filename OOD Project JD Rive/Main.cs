@@ -18,12 +18,16 @@ namespace OOD_Project_JD_Rive
     {
 
         private WatchDog watchDog;
+        private string _username, _password, _server;
 
-        public Main()
+        public Main(string username, string password, string server)
         {
             InitializeComponent();
             TrayMenu();
-            watchDog = new WatchDog();
+            watchDog = new WatchDog(username, password, server);
+            this._username = username;
+            this._password = password;
+            this._server = server;
         }
 
         private void TrayMenu()
@@ -84,6 +88,15 @@ namespace OOD_Project_JD_Rive
         private void notifyIcon_MouseDoubleClick(object sender, MouseEventArgs e)
         {
 
+        }
+
+        private async void btnTest_Click(object sender, EventArgs e)
+        {
+            Boolean testUpload = await Tests.TestUpload(_username, _password, _server, "test-upload.txt");
+            MessageBox.Show("File upload test: " + testUpload);
+
+            Boolean testDelete = await Tests.TestDelete(_username, _password, _server, "test-upload.txt");
+            MessageBox.Show("File delete test: " + testDelete);
         }
     }
 }

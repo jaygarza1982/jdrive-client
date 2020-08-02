@@ -35,6 +35,7 @@
             this.folderBrowse = new System.Windows.Forms.FolderBrowserDialog();
             this.btnAddDir = new System.Windows.Forms.Button();
             this.lboxUpdates = new System.Windows.Forms.ListBox();
+            this.btnTest = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // notifyIcon
@@ -73,11 +74,22 @@
             this.lboxUpdates.Size = new System.Drawing.Size(389, 186);
             this.lboxUpdates.TabIndex = 2;
             // 
+            // btnTest
+            // 
+            this.btnTest.Location = new System.Drawing.Point(13, 415);
+            this.btnTest.Name = "btnTest";
+            this.btnTest.Size = new System.Drawing.Size(75, 23);
+            this.btnTest.TabIndex = 3;
+            this.btnTest.Text = "Test";
+            this.btnTest.UseVisualStyleBackColor = true;
+            this.btnTest.Click += new System.EventHandler(this.btnTest_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnTest);
             this.Controls.Add(this.lboxUpdates);
             this.Controls.Add(this.btnAddDir);
             this.Controls.Add(this.lboxDirectories);
@@ -96,6 +108,7 @@
         private System.Windows.Forms.FolderBrowserDialog folderBrowse;
         private System.Windows.Forms.Button btnAddDir;
         private System.Windows.Forms.ListBox lboxUpdates;
+        private System.Windows.Forms.Button btnTest;
     }
 }
 
